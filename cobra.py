@@ -1,3 +1,4 @@
+from operator import truediv
 import pygame
 import time
 import random
@@ -6,7 +7,10 @@ import random
 pygame.init()
 pygame.mixer.init
 
- 
+nome = input("Digite seu Nome: ")
+emailJogador = input("Digite seu email: ")
+
+
 branco = (255, 255, 255)
 amarelo = (255, 255, 102)
 preto = (0, 0, 0)
@@ -27,7 +31,22 @@ velocidade_cobra = 15
  
 font_style = pygame.font.SysFont("bahnschrift", 25)
 score_font = pygame.font.SysFont("comicsansms", 35)
- 
+
+
+def jogo():
+    while True:
+        nome
+        emailJogador
+        f = open("registro.dat", "a")
+        f.write("\n")
+        f.write(nome)
+        f.write("\n")
+        f.write(emailJogador)
+        f.write("\n")
+        f.close()
+        break
+    
+    
  
 def Sua_Pontuação(Pontuação):
     valor = score_font.render("Pontuação: " + str(Pontuação), True, preto)
@@ -46,6 +65,8 @@ def mensagem(msg, cor):
  
  
 def loopJogo():
+    
+
     acaba_jogo = False
     fecha_jogo = False
  
@@ -63,7 +84,7 @@ def loopJogo():
     
     pygame.mixer.music.load("assets/SuperNintendo.wav")
     pygame.mixer.music.play()
-    pygame.mixer.music.set_volume(0.2)
+    pygame.mixer.music.set_volume(0.1)
 
 
  
@@ -119,13 +140,16 @@ def loopJogo():
         lista_cobra.append(cabeça_Cobra)
         if len(lista_cobra) > Largura_Cobra:
             del lista_cobra[0]
+            
  
         for x in lista_cobra[:-1]:
             if x == cabeça_Cobra:
                 fecha_jogo = True
+                
  
         a_cobra(block_cobra, lista_cobra)
         Sua_Pontuação(Largura_Cobra - 1)
+        
  
         pygame.display.update()
  
@@ -140,4 +164,5 @@ def loopJogo():
     quit()
  
  
+jogo()
 loopJogo()
