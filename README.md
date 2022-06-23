@@ -2,7 +2,8 @@
 Snake Game
 
 
-Bernardo Menegaz Corral - 1130199 - Bernardo18072003@gmail.com	
+Bernardo Menegaz Corral - 1130199 - Bernardo18072003@gmail.com
+\n
 Murilo Macedo Zanette - 1127846 - murilozanette888@gmail.com 
 
 Para nosso projeto de Game 2d, nos baseamos em códigos de alguns projetos de ‘snake games’ que encontramos na internet, tendo uma metodologia similar a trabalhada em sala de aula. Em nosso jogo da cobrinha, é game over quando a cobra atinge os limites da tela. Além disso, adicionamos efeitos sonoros tais como: uma música de ambientação correspondente a temática proposta, além de sons referentes a ‘morte’ da cobra, e a cada ponto ganho. Adicionamos também, uma tela para o display do jogo, juntamente com um contador para pontos acumulados.
