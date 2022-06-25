@@ -17,8 +17,8 @@ preto = (0, 0, 0)
 vermelho = (213, 50, 80)
 verde = (0, 255, 0)
  
-dis_largura = 1080
-dis_altura = 720
+dis_largura = 1280
+dis_altura = 960
  
 dis = pygame.display.set_mode((dis_largura, dis_altura))
 pygame.display.set_caption('Jogo da cobrinha')
