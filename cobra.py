@@ -16,7 +16,6 @@ amarelo = (255, 255, 102)
 preto = (0, 0, 0)
 vermelho = (213, 50, 80)
 verde = (0, 255, 0)
-azul = (50, 153, 213)
  
 dis_largura = 1080
 dis_altura = 720
