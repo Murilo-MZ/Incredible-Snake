@@ -128,7 +128,7 @@ def loopJogo():
             fecha_jogo = True
             pygame.mixer.music.load("assets/mortePacman.wav")
             pygame.mixer.music.play()
-            pygame.mixer.music.set_volume(0.2)   
+            pygame.mixer.music.set_volume(0.5)   
         x1 += x1_muda
         y1 += y1_muda
         dis.fill(verde)
