@@ -32,7 +32,7 @@ font_style = pygame.font.SysFont("bahnschrift", 25)
 score_font = pygame.font.SysFont("comicsansms", 35)
 
 
-def jogo():
+def registro():
     while True:
         nome
         emailJogador
@@ -163,5 +163,5 @@ def loopJogo():
     quit()
  
  
-jogo()
+registro()
 loopJogo()
